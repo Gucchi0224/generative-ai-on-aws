@@ -1,6 +1,9 @@
-transformers==4.31.0
-peft==0.4.0
-accelerate==0.21.0
-bitsandbytes==0.40.2
+transformers==4.36.0
+peft==0.7.1
+accelerate==0.25.0
+bitsandbytes==0.41.3
 safetensors>=0.3.1
 tokenizers>=0.13.3
+datasets[s3]==2.16.0
+sagemaker==2.232.1
+python-dotenv==1.0.1
