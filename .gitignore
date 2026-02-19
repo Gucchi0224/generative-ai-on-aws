@@ -32,3 +32,5 @@ output/
 tmp/
 .ipynb_checkpoints/
 __pycache__/
+.env
+sagemaker list-training-jobs --sort-by CreationTime --sort-order Descending --max-results 5
